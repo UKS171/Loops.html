@@ -1,2 +1,50 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loops</title>
+  </head>
+  <body>
+    Javascript If Condition
+    <script>
+      let age = prompt("Enter your age: ");
+      let overseasApplicant = prompt("Are you overseas applicant: Yes or No");
+      let isOverseas = false;
+      console.log(age);
+      console.log(age >= 18);
+      console.log(overseasApplicant.toLowerCase);
+      console.log(age == 30);
+      if (overseasApplicant == "Yes") {
+        isOverseas = true;
+      }
+      console.log("isOverseas", isOverseas);
+      //Boolean Value
+      let isEligible = false;
+      if (age >= 18) {
+        console.log("Yes you are eligible for Nadra NIC");
+        if (isOverseas) {
+          console.log("Go to Nadra ISB office");
+        }
+        {
+          console.log("You are moved to NIC");
+        }
+        if (options == 2) {
+          console.log("You are moved to License");
+        } else if (options == 3) {
+          console.log("You are moved to Marriage");
+        } else {
+          console.log("Wrong input");
+        }
+      }
+      let a = prompt("Enter Yes or No");
+      while (a == "Yes" || a == "No") {
+        a = prompt("Incorrect option enter No or Yes");
+      }
+      //Loops
+      for (let i = 0; i <= 10; i++) {
+        console.log(i);
+      }
+    </script>
+  </body>
+</html>
